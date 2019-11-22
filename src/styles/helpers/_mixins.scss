@@ -1,0 +1,27 @@
+@mixin fonts($font-size,$font-family,$font-weight,$font-color,) 
+{
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color:$font-color ; 
+}
+
+@mixin button($width,$height,$color,$bg,$border,$border-radius){
+    width: $width;
+    height: $height;
+    color:$color;
+    background-color: $bg;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+@mixin input($width,$height,$color,$bg,$border,$border-radius){
+    width: $width;
+    height: $height;
+    color:$color;
+    background-color: $bg;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+

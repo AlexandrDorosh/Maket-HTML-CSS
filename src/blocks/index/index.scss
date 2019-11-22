@@ -1,0 +1,266 @@
+.logo{
+    background-color: $p-1;
+    height:100px;
+}
+
+
+.logo a{
+    text-transform: uppercase;
+    @include fonts(12px,$fonts-sb,400,#fff,)
+}
+
+.logo a:hover{  
+    text-transform: uppercase;
+    text-decoration: none;
+    @include fonts(12px,$fonts-sb,400,#fff,)
+}
+
+
+.logo a i {
+    position: relative;
+    bottom: 20px;
+    left:67px;
+}
+
+.logo .a-center {
+    padding-top: 20px;
+} 
+
+.circle-phone{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    transform: rotate(90deg);
+    i{
+        position: relative;
+        left: 8px;
+    }
+}
+
+.logo .Sign{
+    @include button(100px,40px,white,$d1-p1,$d1-p1 solid 1px,
+    5%);
+    text-transform:uppercase;
+}
+
+.logo  .Order{
+    @include button(100px,40px,white,$p-2,$p-2 solid 1px,
+    5%);
+    text-transform:uppercase;
+}
+
+.logo .row {
+    padding-top:20px;
+}
+
+.logo .row div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.header {
+    position: relative;
+    z-index: 0;
+    background-color: #e6f7fe;
+    height: 631px;
+}
+
+.header .img1{     
+    margin-top:291px;
+    position: absolute;
+    z-index: -4;
+}
+
+.header .img2{     
+    margin-top:291px;
+    position: absolute;
+    z-index: -4;
+    margin-left: 790px;
+}
+
+.header .img3{     
+    margin-top:291px;
+    position: absolute;
+    z-index: -4;
+    margin-left: 1180px;
+}
+
+.header .img4{     
+    position: absolute;
+    z-index: -3;
+    margin-left: 850px;
+}
+
+.header .img5{     
+    position: absolute;
+    z-index: -3;
+    margin-left: 1600px;
+    margin-top: 150px;
+}
+
+.header-in-container .img6{
+    position: absolute;
+    z-index: -2;
+    margin-left: 720px;
+    margin-top: 80px;       
+}
+
+.header-in-container .img7{
+    position: absolute;
+    z-index: -1;
+    margin-left: 720px;
+    margin-top: 85px;       
+}
+
+.header-in-container .h1-blue{
+    margin-top: 120px;
+    @include fonts(42px,$fonts-P,400,$p-1);
+}
+
+.header-in-container h1{
+    margin-top: -30px;
+    @include fonts(42px,$fonts-P,400,#323538);
+}
+
+.header-in-container p{
+    margin-top: 50px;
+    @include fonts(17px,$fonts-P,200,#656a70);
+}
+
+.header-in-container .orange hr {
+    background-color: $p-2 ;
+    height: 2px;    
+}
+
+.header-in-container .right hr{
+   margin-left: -30px;  
+}
+
+.header-in-container button{
+     @include button(220px,40px,white,$p-2,$p-2 solid 1px,
+    3%);
+    text-transform:uppercase;
+}
+
+.header-bottom { 
+    position: relative;
+    z-index:0;
+    margin-top: -100px;
+    background-color: $p-1;
+    height: 136px;    
+ }
+
+ .header-bottom div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .header-bottom-p p{
+     margin-top: 20px;
+     margin-bottom: 5px;
+     @include fonts(13px,$font-m,200,#fff);
+ }
+
+ .header-bottom-input select{
+     @include input(200px,50px,#656a70,#f6f9f9,1px solid #d8dadb,5%);   
+ }
+ 
+ .header-bottom-input input{
+    @include input(200px,50px,#656a70,#f6f9f9,1px solid #d8dadb,5%);   
+}
+
+ .header-bottom-input button{
+     @include button(200px,50px,white,$d1-p1,$d1-p1 solid 1px,5%);
+ }
+
+ 
+ .Welcome {
+  margin-top: 50px; 
+}
+
+
+ .Welcome-left {
+     background-color:$l2-p1 ;
+     height: 415px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     margin:0 40px;
+ }
+
+ .Welcome-Right{
+     h1{
+         @include fonts(15px,$font-m,200,$p-1,)
+     }
+     h2{
+        @include fonts(33px,$fonts-P,400,#1e2021);
+        margin: 30px 0;
+     }
+     p{
+        @include fonts(13px,$font-m,400,#51555a);
+        margin-top: 38px;
+     }
+ }
+
+.banner-1 {
+    background-color: $p-1;
+    height: 697px;
+}
+
+.banner-1 h1{
+    @include fonts(25px,$font-m,200,#fff);
+    text-align: center;
+    margin-top: 57px;
+}   
+    
+.banner-1 h2{
+    @include fonts(33px,$font-m,500,#fff);
+    text-align: center;
+    margin-top: 20px;
+}  
+
+.banner-1 h3{
+    @include fonts(17px,$font-m,500,#1e2021);
+    text-align: center;
+    margin-top: 20px;
+}  
+
+.banner-1 p {
+    @include fonts(14px,$font-m,400,#51555a);
+    text-align: center;
+}
+
+.banner-1 .tab article {
+    margin-top: 60px;
+    background-color: #fff;
+    height: 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.banner-1 button{
+    @include button(280px,50px,#fff,$d1-p1,$d1-p1,4%);
+    margin-top: 35px;
+    position: relative;
+    left: 415px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
