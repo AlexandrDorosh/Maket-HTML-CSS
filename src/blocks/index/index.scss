@@ -85,7 +85,7 @@
     margin-top:291px;
     position: absolute;
     z-index: -4;
-    margin-left: 1180px;
+    margin-left: 1090px;
 }
 
 .header .img4{     
@@ -162,7 +162,7 @@
  .header-bottom-p p{
      margin-top: 20px;
      margin-bottom: 5px;
-     @include fonts(13px,$font-m,200,#fff);
+     @include fonts(13px,$fonts-m,200,#fff);
  }
 
  .header-bottom-input select{
@@ -194,14 +194,14 @@
 
  .Welcome-Right{
      h1{
-         @include fonts(15px,$font-m,200,$p-1,)
+         @include fonts(15px,$fonts-m,200,$p-1,)
      }
      h2{
         @include fonts(33px,$fonts-P,400,#1e2021);
         margin: 30px 0;
      }
      p{
-        @include fonts(13px,$font-m,400,#51555a);
+        @include fonts(13px,$fonts-m,400,#51555a);
         margin-top: 38px;
      }
  }
@@ -212,25 +212,25 @@
 }
 
 .banner-1 h1{
-    @include fonts(25px,$font-m,200,#fff);
+    @include fonts(25px,$fonts-m,200,#fff);
     text-align: center;
     margin-top: 57px;
 }   
     
 .banner-1 h2{
-    @include fonts(33px,$font-m,500,#fff);
+    @include fonts(33px,$fonts-m,500,#fff);
     text-align: center;
     margin-top: 20px;
 }  
 
 .banner-1 h3{
-    @include fonts(17px,$font-m,500,#1e2021);
+    @include fonts(17px,$fonts-m,500,#1e2021);
     text-align: center;
     margin-top: 20px;
 }  
 
 .banner-1 p {
-    @include fonts(14px,$font-m,400,#51555a);
+    @include fonts(14px,$fonts-m,400,#51555a);
     text-align: center;
 }
 
@@ -253,14 +253,273 @@
 }
 
 
+.banner-2 h1{
+    @include fonts(25px,$fonts-m,200,$p-1);
+    text-align: center;
+    margin-top: 57px;
+}
+
+.banner-2 h2{
+    @include fonts(33px,$fonts-m,500,#323538);
+    text-align: center;
+    margin-top: 20px;
+}  
+
+.banner-2 h3{
+    @include fonts(17px,$fonts-m,500,#1e2021);
+    text-align: center;
+    margin-top: 20px;
+} 
+
+.banner-2 p {
+    @include fonts(14px,$fonts-m,400,#51555a);
+    text-align: center;
+}
+
+.banner-2 .tab-2 article {
+    margin-top: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    border-right: solid 1px $l2-p1;
+}
+
+
+.banner-3{
+    position: relative;
+    z-index: 0;
+    margin-top: 80px;
+    background-color: $p-1;
+    height: 557px;
+}
+
+.banner-3 h1{
+    @include fonts(25px,$fonts-m,200,#fff);
+    text-align: center;
+    margin-top: 57px;
+}
+
+.banner-3 h2{
+    @include fonts(33px,$fonts-m,500,#fff);
+    text-align: center;
+    margin-top: 20px;
+} 
+
+.banner-3 p {
+    @include fonts(20px,$fonts-m,400,#fff);
+    text-align: center;
+    margin-top: 35px;
+}
+
+.banner-3 .img-3-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.banner-3 .img-3-2 {
+    position: absolute;
+    right: 100px;
+    top: 20px;   
+}
+
+.banner-3 .img-3-3 {
+    position: absolute;
+    left: 300px;
+    top: 20px;   
+}
+
+
+.banner-4 .img-3-3 {
+    position: absolute;
+    left: 300px;
+    top: 20px;   
+}
+
+
+.banner-3 .img-3-4 {
+    position: absolute;
+    left: 300px;
+    top: 120px;   
+}
+
+.banner-4-left {
+    margin-top: -250px;
+}
+
+table{
+    border: solid 2px rgba(150, 150, 150, .5);
+    background-color: #fff;
+    width: 500px;
+    height: 486px;
+    margin: 0 auto;
+}
+
+.td1{
+    border-right: solid 1px rgba(150, 150, 150, .5);
+    border-bottom: solid 1px rgba(150, 150, 150, .5);
+}
+
+.td3{
+    border-right: solid 1px rgba(150, 150, 150, .5);
+}
 
 
 
 
+.banner-4 h1{
+    @include fonts(35px,$fonts-P,400,$p-2);
+    padding:0px 50px;
+}
+
+.banner-4 h2{
+    @include fonts(14px,$fonts-P,400,#51555a);
+    padding:0 60px;
+}
+.banner-4 p{
+    @include fonts(17px,$fonts-m,200,$p-1);
+    padding: 0 70px;
+}
+
+.shar{
+    margin-top: -250px;
+    background-color: $p-1;
+    height: 486;
+    img{
+        margin-top: 20px;
+    }
+}
 
 
+.banner-5 h1{
+    @include fonts(25px,$fonts-m,200,$p-1);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.banner-5 h2{
+    @include fonts(33px,$fonts-m,500,#323538);
+    text-align: center;
+    margin-top: 20px;
+} 
+
+.banner-5 p {
+    @include fonts(14px,$fonts-m,300,#51555a);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner-5 h3{
+    @include fonts(17px,$fonts-sb,400,$p-1);
+    text-align: center;
+    margin-top:20px;
+}
+
+.banner-5 h4{
+    text-align: center;
+    @include fonts(13px,$fonts-P,300,#a3a6a9)
+}
+
+.banner-5 .arrows i {
+    font-size: 60px;
+    color:$p-1 ;
+}
+
+.banner-5 .arrows .fa-chevron-left{
+   position: absolute;
+   top: 70px;
+}
+
+.banner-5 .arrows .fa-chevron-right{
+    position: absolute;
+    top: 70px;
+    left: 330px;
+ }
+
+ .banner-5 img{
+   position: relative;
+   left: 140px;
+   margin-top: 30px;
+ }
+
+ .footer{
+     background-color: $p-1;
+     height: 605px;
+ }
+
+ .top{
+     padding-top: 50px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: space-between;
+    
+ }
+
+ .footer a{
+    @include fonts(12px,$fonts-P,500,#fff);
+    text-transform: uppercase;
+}
+
+.footer a:hover{
+   @include fonts(12px,$fonts-P,500,#fff);
+   text-decoration: none;
+}
+
+.footer hr {
+   background-color: #fff;
+}
+
+.spusok p{
+   @include fonts(16px,$fonts-P,500,#fff)
+}
+
+.spusok-1 ul{
+   list-style-type: none;
+}
+
+.spusok-1 li{
+   @include fonts(13px,$fonts-m,400,#fff);
+   margin: 16px 0;
+}
 
 
+.footer-2 p {
+   @include fonts(13px,$fonts-m,400,#fff)
+}
 
 
+.Social-icons-back ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style-type: none;
+  
+ }
+
+
+.circle-back-top i{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #fff;
+   
+}
+
+.circle-back-top i:hover{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   background-color: $d1-p1;
+   color: #fff; 
+   border: 2px solid $d1-p1;
+}
 
