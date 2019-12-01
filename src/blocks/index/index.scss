@@ -209,6 +209,7 @@
 .banner-1 {
     background-color: $p-1;
     height: 697px;
+    margin-top: 40px;
 }
 
 .banner-1 h1{
@@ -336,7 +337,7 @@
 }
 
 
-.banner-4 .img-3-3 {
+.banner-3 .img-3-3 {
     position: absolute;
     left: 300px;
     top: 20px;   
@@ -345,7 +346,7 @@
 
 .banner-3 .img-3-4 {
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 120px;   
 }
 
@@ -353,8 +354,9 @@
     margin-top: -250px;
 }
 
+
+
 table{
-    border: solid 2px rgba(150, 150, 150, .5);
     background-color: #fff;
     width: 500px;
     height: 486px;
@@ -362,12 +364,12 @@ table{
 }
 
 .td1{
-    border-right: solid 1px rgba(150, 150, 150, .5);
-    border-bottom: solid 1px rgba(150, 150, 150, .5);
+    border-right: solid 2px rgba(150, 150, 150, .5);
+    border-bottom: solid 2px rgba(150, 150, 150, .5);
 }
 
 .td3{
-    border-right: solid 1px rgba(150, 150, 150, .5);
+    border-right: solid 2px rgba(150, 150, 150, .5);
 }
 
 
@@ -389,6 +391,7 @@ table{
 
 .shar{
     margin-top: -250px;
+    margin-left: -40px;
     background-color: $p-1;
     height: 486;
     img{
@@ -451,6 +454,7 @@ table{
  .footer{
      background-color: $p-1;
      height: 605px;
+     margin-top: 40px;
  }
 
  .top{
